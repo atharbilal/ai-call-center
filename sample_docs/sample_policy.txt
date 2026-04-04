@@ -1,0 +1,51 @@
+COMPANY SUPPORT POLICY DOCUMENT
+================================
+
+BILLING AND PAYMENTS
+---------------------
+- Bills are generated on the 1st of every month.
+- Payment is due within 7 days of bill generation.
+- If payment is not received within 7 days, the account is suspended.
+- A suspended account can be reactivated by paying the outstanding balance plus a ₹50 reactivation fee.
+- Accepted payment methods: UPI, Net Banking, Credit Card, Debit Card, Paytm, PhonePe.
+- For billing disputes, raise a ticket within 30 days of bill date.
+- Refunds are processed within 5-7 business days to the original payment method.
+
+DATA AND PLAN POLICIES
+-----------------------
+- Data rolls over for Premium and Gold plan customers (not Basic).
+- Speed is throttled to 1 Mbps after data limit is exhausted (not suspended).
+- Plan upgrades take effect immediately.
+- Plan downgrades take effect from the next billing cycle.
+- International roaming must be activated separately; call customer care to enable.
+
+ORDER AND DELIVERY POLICIES
+-----------------------------
+- Standard delivery: 3-5 business days.
+- Express delivery: next-day delivery available in metro cities (additional ₹99).
+- Free delivery on orders above ₹499.
+- Orders can be cancelled within 2 hours of placement for full refund.
+- After 2 hours, cancellation is subject to seller approval.
+- Returns accepted within 10 days for electronics (must be unopened/unused unless defective).
+- Return pickup is scheduled within 48 hours of return request approval.
+
+ACCOUNT SECURITY
+-----------------
+- Password can be reset via registered email or OTP to registered mobile.
+- If account is compromised, call immediately — we will lock the account within 5 minutes.
+- Two-factor authentication is recommended and can be enabled in app settings.
+- Account details can only be changed by the registered account holder after OTP verification.
+
+ESCALATION POLICY
+------------------
+- Level 1 (AI Agent): Billing queries, order status, plan info, basic troubleshooting.
+- Level 2 (Human Agent): Refund disputes, account compromise, legal notices.
+- Level 3 (Senior Manager): Issues unresolved after 72 hours.
+- Guaranteed callback within 2 hours for Level 2 escalations.
+
+COMMON TROUBLESHOOTING
+------------------------
+- Internet not working: Restart device. Check if data is exhausted. Check if account is active. Try toggling airplane mode.
+- App not loading: Clear cache, reinstall app, check internet connection.
+- OTP not received: Check spam folder. Wait 2 minutes. Request OTP again. Check if phone number is correct.
+- Payment failed but money deducted: This is a bank hold — it will auto-reverse in 3-5 business days. If not, raise a ticket with transaction screenshot.
