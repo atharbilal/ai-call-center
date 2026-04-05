@@ -1,15 +1,13 @@
 {
   "version": 2,
-  "builds": [
+  "buildCommand": "echo 'No build needed'",
+  "outputDirectory": ".",
+  "installCommand": "pip install -r requirements.txt",
+  "framework": null,
+  "rewrites": [
     {
-      "src": "api/main.py",
-      "use": "@vercel/python"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "api/main.py"
+      "source": "/(.*)",
+      "destination": "/api/main.py"
     }
   ]
 }
