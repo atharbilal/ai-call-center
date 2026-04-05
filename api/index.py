@@ -1,17 +1,9 @@
-import sys
-import os
-sys.path.append(os.path.dirname(os.path.dirname(__file__)))
-
-from main import app
-from fastapi import Request
-from fastapi.responses import JSONResponse
+from app import app
 
 # Vercel serverless function handler
-async def handler(request: Request):
+async def handler(request):
     return await app(request.scope, receive, send)
 
-# For Vercel
-app_handler = app
-
 # Export for Vercel
+app_handler = app
 __all__ = ["app_handler", "handler"]
