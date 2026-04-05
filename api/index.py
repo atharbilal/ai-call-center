@@ -1,9 +1,20 @@
-from app import app
+from fastapi import FastAPI
+from fastapi.responses import JSONResponse
 
-# Vercel serverless function handler
-async def handler(request):
-    return await app(request.scope, receive, send)
+# Create simple FastAPI app
+app = FastAPI(title="AI Call Center")
 
-# Export for Vercel
-app_handler = app
-__all__ = ["app_handler", "handler"]
+@app.get("/")
+async def root():
+    return JSONResponse({"message": "AI Call Center is working!"})
+
+@app.get("/health")
+async def health():
+    return JSONResponse({"status": "ok", "version": "1.0.0"})
+
+# Vercel handler
+def handler(request):
+    return app(request.scope, receive, send)
+
+# Export
+__all__ = ["handler"]
