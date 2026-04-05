@@ -33,5 +33,4 @@ README.md
 .env.example
 sample_docs
 tests
-dashboard
 knowledge/ingest.py

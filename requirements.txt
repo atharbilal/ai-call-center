@@ -16,3 +16,8 @@ python-multipart
 aiofiles
 openai
 groq
+chromadb
+sentence-transformers
+pypdf
+streamlit
+pandas
