@@ -1,3 +1,4 @@
+--break-system-packages
 fastapi
 uvicorn[standard]
 python-dotenv
